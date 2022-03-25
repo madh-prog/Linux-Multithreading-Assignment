@@ -5,7 +5,7 @@
 #include<stdlib.h>
 #include<pthread.h>
 
-void* (void* ptr)
+void* calls(void* ptr)
 {
 	printf("Linux is interesting");
 	pthread_cancel(pthread_self());
